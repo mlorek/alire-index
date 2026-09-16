@@ -2,6 +2,7 @@ name = "markdown"
 description = "Markdown parser"
 version = "26.0.0"
 tags = ["markdown", "gfm", "commonmark"]
+website = "https://github.com/AdaCore/markdown"
 
 authors = ["AdaCore"]
 maintainers = ["Max Reznik <reznik@adacore.com>", "chouteau@adacore.com", "sagaert@adacore.com"]
@@ -25,8 +26,8 @@ MARKDOWN_BUILD_MODE = "prod"
 "*".ada_version = "Ada2022"
 
 [[depends-on]]
-vss_text = "~26.0.0"
-vss_extra = "~26.0.0"
+vss_text = "^26.0.0"
+vss_extra = "^26.0.0"
 
 [origin]
 url="https://github.com/AdaCore/markdown/archive/refs/tags/v26.0.0.zip"
